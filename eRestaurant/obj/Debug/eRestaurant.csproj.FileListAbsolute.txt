@@ -7,3 +7,13 @@ C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant Demo\eRestaurant\bin\Debug\En
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant Demo\eRestaurant\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant Demo\eRestaurant\obj\Debug\eRestaurant.dll
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant Demo\eRestaurant\obj\Debug\eRestaurant.pdb
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\eRestaurant.dll.config
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\eRestaurant.dll
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\eRestaurant.pdb
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\EntityFramework.dll
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\EntityFramework.xml
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.csprojResolveAssemblyReference.cache
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.dll
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.pdb

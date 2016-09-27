@@ -50,11 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\MenuController.cs" />
     <Compile Include="DAL\DAL.cs" />
     <Compile Include="Entities\Bill.cs" />
     <Compile Include="Entities\BillItems.cs" />
+    <Compile Include="Entities\DTOs\CategoryWithItems.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
+    <Compile Include="Entities\POCOS\MenuItem.cs" />
     <Compile Include="Entities\Reservation.cs" />
     <Compile Include="Entities\SpecialEvent.cs" />
     <Compile Include="Entities\Waiter.cs" />
