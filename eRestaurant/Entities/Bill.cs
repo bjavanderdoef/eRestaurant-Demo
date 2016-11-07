@@ -1,33 +1,51 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.UI.WebControls;
-
 namespace eRestaurant.Entities
 {
-    public class Bill
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Spatial;
+
+    public partial class Bill
     {
-        public int BillID { get; set; }
-        public DateTime BillDate { get; set; }
-        public DateTime? OrderPlaced { get; set; }
-        public int NumberInParty { get; set; }
-        public bool PaidStatus { get; set; }
-        public int WaiterID { get; set; }
-        public int? TableID { get; set; }
-        public int? ReservationID { get; set; }
-        public bool OrderReady { get; set; }
-        public string Comment { get; set; }
-
-        // Navigation Properties
-        public virtual ICollection<BillItem> Items { get; set; }
-        public virtual Waiter Waiter { get; set; }
-        public virtual Table Table { get; set; }
-
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Bill()
         {
-            BillDate = DateTime.Now;
+            BillItems = new HashSet<BillItem>();
         }
+
+        public int BillID { get; set; }
+
+        public DateTime BillDate { get; set; }
+
+        public TimeSpan? OrderPlaced { get; set; }
+
+        public TimeSpan? OrderReady { get; set; }
+
+        public TimeSpan? OrderServed { get; set; }
+
+        public TimeSpan? OrderPaid { get; set; }
+
+        public int NumberInParty { get; set; }
+
+        public bool PaidStatus { get; set; }
+
+        public int WaiterID { get; set; }
+
+        public int? TableID { get; set; }
+
+        public int? ReservationID { get; set; }
+
+        [StringLength(50)]
+        public string Comment { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<BillItem> BillItems { get; set; }
+
+        public virtual Reservation Reservation { get; set; }
+
+        public virtual Table Table { get; set; }
+
+        public virtual Waiter Waiter { get; set; }
     }
 }
