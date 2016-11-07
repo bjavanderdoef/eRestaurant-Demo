@@ -9,7 +9,7 @@ namespace eRestaurant.DAL
     public partial class RestaurantContext : DbContext
     {
         public RestaurantContext()
-            : base("name=RestaurantContext")
+            : base("name=EatIn")
         {
         }
 
