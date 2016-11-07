@@ -17,3 +17,4 @@ C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\bin\Debug\En
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.csprojResolveAssemblyReference.cache
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.dll
 C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant-Demo\eRestaurant\obj\Debug\eRestaurant.pdb
+C:\Users\bvanderdoef1\Documents\GitHub\eRestaurant Demo\eRestaurant\obj\Debug\eRestaurant.csprojResolveAssemblyReference.cache
